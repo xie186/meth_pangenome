@@ -1,0 +1,28 @@
+# Ignore everything
+*
+
+# But not these files...
+#!.gitignore
+!*.pl
+!*.py
+!*.R
+!*.README
+!README
+!*.qsub
+!*.sub
+!*.sh
+!*.Rmd
+!*.md
+!*.docs
+!*FastQC/
+!*.ipynb
+!.gitignore
+!*.Rproj
+!chk_qPCR.txt
+!*.s4g.*
+!*.yaml
+# ...even if they are in subdirectories
+!*/
+
+software/
+.Rproj.user
