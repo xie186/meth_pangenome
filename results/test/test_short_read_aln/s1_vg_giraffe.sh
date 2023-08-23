@@ -1,0 +1,3 @@
+singularity run  --bind /media/omicsacademy/ ../../../software/vg.1.50.1.sif vg giraffe -Z ../../../data/hprc-v1.1-mc-grch38.gbz -m ../../../data/hprc-v1.1-mc-grch38.min -d ../../../data/hprc-v1.1-mc-grch38.dist -o bam -f test_1.fq -f test_2.fq > test_mapped.bam
+
+#singularity run  --bind /media/omicsacademy/ ../../../software/vg.1.50.1.sif vg giraffe -Z ../../../data/hprc-v1.1-mc-grch38.gbz -m ../../../data/hprc-v1.1-mc-grch38.min -d ../../../data/hprc-v1.1-mc-grch38.dist SRR7890828_WGS_cross-site_study_1.fastq.gz  SRR7890828_WGS_cross-site_study_2.fastq.gz > SRR7890828_WGS_cross-site_study_mapped.gam

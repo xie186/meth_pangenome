@@ -1,0 +1,1 @@
+singularity run  --bind /media/omicsacademy/ ../../../software/vg.1.50.1.sif vg giraffe -Z ../../../data/hprc-v1.1-mc-grch38.gbz -m ../../../data/hprc-v1.1-mc-grch38.min -d ../../../data/hprc-v1.1-mc-grch38.dist -t 20 -f SRR7890828_WGS_cross-site_study_1.fastq.gz -f SRR7890828_WGS_cross-site_study_2.fastq.gz > SRR7890828_WGS_cross-site_study_mapped_t20.gam

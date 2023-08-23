@@ -7,3 +7,6 @@ wget https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/free
 ##
  /usr/bin/time -v ~/bin/gfatools view -R chr12:25200000-25300000 ./hprc-v1.1-mc-grch38.gfa 2> test_chr12.gfa 1> test_chr12.log &
 
+
+singularity run --bind /media/omicsacademy/ ../software/vg.1.50.1.sif vg autoindex -g hprc-v1.1-mc-grch38.gfa -p hprc-v1.1-mc-grch38 > hprc-v1.1-mc-grch38.log
+
