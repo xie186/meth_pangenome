@@ -10,3 +10,6 @@ wget https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/free
 
 singularity run --bind /media/omicsacademy/ ../software/vg.1.50.1.sif vg autoindex -g hprc-v1.1-mc-grch38.gfa -p hprc-v1.1-mc-grch38 > hprc-v1.1-mc-grch38.log
 
+
+
+ singularity run --bind /media/omicsacademy/ ../software/vg.1.50.1.sif vg index -x hprc-v1.1-mc-grch38.xg hprc-v1.1-mc-grch38.gfa > hprc-v1.1-mc-grch38.xg.log
